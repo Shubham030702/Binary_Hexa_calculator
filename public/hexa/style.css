@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(34, 33, 33, 0.767),rgba(34, 33, 33, 0.612),rgba(34, 33, 33, 0.598),rgba(34, 33, 33, 0.498));
+    height: 100vh;
+    width: 100vw;
+}
+
+.title h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 10vh;
+    cursor: pointer;
+}
+.title h1 span:hover{
+    transition:0.3s;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 10vh;
+    color: rgba(240, 248, 255, 0.712);
+}
+
+.title{
+    margin: 7vh;
+    margin-left: 25vw;
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 60vh;
+    justify-content: space-between;
+}
+.left{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.links li{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.links li a{
+    font-size: 25px;
+    text-decoration: none;
+    font-style: oblique;
+    color: black;
+}
+.links li a:hover{
+    font-size: 25.5px;
+    text-decoration: none;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+}
+
+.right{
+    height: 67vh;
+    width: 40vw;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #ffffffc0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+    margin-right: 5vw;
+}
+.display{
+    height: 30vh;
+    width: 40vw;
+    border-radius: 38px;
+    background: #1f1f1fcf;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    overflow: scroll;
+    align-items: center;
+}
+.operator{
+    background-color: rgb(148, 145, 142);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.but{
+    /* border: 2px solid black; */
+    height : 7vh;
+    width: 10vh;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+}
+.but:hover{
+    /* border: 2px solid black; */
+    height : 7vh;
+    width: 10vh;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}

@@ -51,7 +51,6 @@ body{
 .links li{
     margin-top: 7vh;
     margin-bottom: 7vh;
-    border: 2px solid black;
     list-style: none;
     height: 13vh;
     position: relative;
@@ -92,16 +91,21 @@ body{
     background: #1f1f1fcf;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
-    text-align: right;
     font-family: Inter;
-    font-size: 50px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
     overflow: scroll;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
+
+.record,.answer{
+    margin: 5px 10px;
+}
+
 .buttons{
     display: grid;
     grid-template-columns: auto auto auto auto auto;

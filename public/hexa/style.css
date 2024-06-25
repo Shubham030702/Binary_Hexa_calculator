@@ -51,18 +51,26 @@ body{
 .links li{
     margin-top: 7vh;
     margin-bottom: 7vh;
+    list-style: none;
+    height: 13vh;
+    position: relative;
 }
 .links li a{
+    height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 25px;
     text-decoration: none;
     font-style: oblique;
     color: black;
 }
+
 .links li a:hover{
     font-size: 25.5px;
     text-decoration: none;
     font-style: oblique;
-    color: rgb(255, 255, 255);
+    color: rgb(254, 254, 254);
 }
 
 .right{
@@ -81,16 +89,21 @@ body{
     background: #1f1f1fcf;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
-    text-align: right;
     font-family: Inter;
-    font-size: 50px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     display: flex;
+    flex-direction: column;
     overflow: scroll;
-    align-items: center;
+    justify-content: center;
 }
+
+.record,.answer{
+    margin: 5px 10px;
+}
+
 .operator{
     background-color: rgb(148, 145, 142);
 }
